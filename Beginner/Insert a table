@@ -1,0 +1,7 @@
+create database books;
+use books;
+create table authors (id varchar(20), name varchar(20), email varchar(20));
+desc authors;
+INSERT into authors (name,id,email) values("Anamika","1","ana@gmail.com");
+INSERT into authors (name,id,email) values("Priya","2","priya@gmail.com");
+select * from authors;
