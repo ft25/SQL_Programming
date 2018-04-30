@@ -1,0 +1,15 @@
+create database okay;
+use okay;
+create table states(
+Tamil_Nadu varchar(25),
+  Kerala varchar(25),
+  Gujarat varchar(25),
+  Maharashtra varchar(25),
+  Karnataka varchar(25),
+  Punjab varchar(25),
+  Andhra_pradesh varchar(25),
+  West_Bengal varchar(25),
+  Goa varchar(25),
+  Assam varchar(25)
+  );
+  desc states;
